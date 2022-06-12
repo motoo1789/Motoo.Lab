@@ -24,8 +24,9 @@
     <div class="parent">
         <div class="box1 boxShared">
             <h4>更新</h4>
-            <p>2022/02/08</p>
+            <p>2022/06/12</p>
             <h4>過去の更新日</h4>
+            <p>2022/02/08</p>
             <p>2021/10/19</p>
             <p>2020/10/11</p>
             <p>2019/12/19</p>
@@ -75,6 +76,10 @@
                 <div class="content js-modal-open" data-target="modal10">
                     <a class="js-modal-open" href="" data-target="modal10">ラウンドトリップ支援ツール</a>
                     <img class="image" src="./image/HP用UMLDS.png">
+                </div>
+                <div class="content js-modal-open" data-target="modal11">
+                    <a class="js-modal-open" href="" data-target="modal11">受動態検知ツール</a>
+                    <img class="image" src="./image/HP用受動態検知ツール.png">
                 </div>
             </div>
         </div>
@@ -281,11 +286,29 @@
                 <a class="js-modal-close close" href="">閉じる</a>
             </div>
         </div>
+        <div id="modal11" class="modal js-modal">
+            <div class="modal_bg js-modal-close"></div>
+            <!--背景クリックで閉じる用-->
+            <div class="modal_content">
+                <h2 class="Smallheadline">受動態検知ツール</h2>
+                <div class="parent">
+                    <div class="video_class">
+                        <video class="video_size" src="./vdeo/HP用受動態.mp4" controls></video>
+                    </div>
+                    <div class="Exp_ext">
+                        <p class="Linespacing">使用言語：Python</p>
+                        <p class="Linespacing">開発環境：Anaconda</p>
+                        <p class="Linespacing">ライブラリ：JUMAN pyknp</p>
+                        <p class="Linespacing">開発動機：受動態をスライドに書くのは良くないが目視では限界があるので機械に判断してもらう</p>
+                        <p class="Linespacing">一番苦労したところ：pyknpの環境構築ライブラリの.pyを書きかえたり</p>
+                    </div>
+                </div>
+                <a class="js-modal-close close" href="">閉じる</a>
+            </div>
+        </div>
     </div>
 </div>
 </div>
-
-
     <!--script-->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
